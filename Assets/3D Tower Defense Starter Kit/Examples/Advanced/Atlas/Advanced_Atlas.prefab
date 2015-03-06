@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Advanced_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 1}
+  m_Name: 
+  material: {fileID: 2100000, guid: 42d7b6f93bf93a942afaee8eb848cd00, type: 2}
+  sprites:
+  - name: tower
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 91
+      width: 45
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 250
+      y: 91
+      width: 45
+      height: 33
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Food
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 124
+      width: 64
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 250
+      y: 124
+      width: 64
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Iron
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 209
+      width: 64
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 209
+      width: 64
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wood
+    outer:
+      serializedVersion: 2
+      x: 362
+      y: 198
+      width: 64
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 362
+      y: 198
+      width: 64
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_09
+    outer:
+      serializedVersion: 2
+      x: 282
+      y: 59
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 282
+      y: 59
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_13
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 21
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 250
+      y: 21
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_03
+    outer:
+      serializedVersion: 2
+      x: 282
+      y: 21
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 282
+      y: 21
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_06
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 136
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 136
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_08
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 104
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 104
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_10
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 72
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 72
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_05
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 40
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 40
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_04
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 8
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 8
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_07
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 136
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 136
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_12
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 136
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 136
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_02
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 136
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 136
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_11
+    outer:
+      serializedVersion: 2
+      x: 442
+      y: 136
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 442
+      y: 136
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_01
+    outer:
+      serializedVersion: 2
+      x: 474
+      y: 136
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 474
+      y: 136
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Reload_00
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 104
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 104
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dark
+    outer:
+      serializedVersion: 2
+      x: 381
+      y: 169
+      width: 13
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 172
+      width: 7
+      height: 7
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: X
+    outer:
+      serializedVersion: 2
+      x: 362
+      y: 182
+      width: 19
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 362
+      y: 182
+      width: 19
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button
+    outer:
+      serializedVersion: 2
+      x: 397
+      y: 187
+      width: 11
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 190
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Honeycomb
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 168
+      width: 112
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 251
+      y: 169
+      width: 110
+      height: 86
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Highlight
+    outer:
+      serializedVersion: 2
+      x: 362
+      y: 169
+      width: 15
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 364
+      y: 171
+      width: 11
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Light
+    outer:
+      serializedVersion: 2
+      x: 381
+      y: 182
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 183
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Aldrich_Sci-Fi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 250
+      height: 247
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 250
+      height: 247
+    paddingLeft: .00800000038
+    paddingRight: .0160000008
+    paddingTop: .0121457493
+    paddingBottom: .0242914986
+  - name: fast-forward
+    outer:
+      serializedVersion: 2
+      x: 426
+      y: 171
+      width: 64
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 171
+      width: 64
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .342105269
+    paddingBottom: .342105269
+  - name: play-forward
+    outer:
+      serializedVersion: 2
+      x: 250
+      y: 53
+      width: 32
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 250
+      y: 53
+      width: 32
+      height: 38
+    paddingLeft: .59375
+    paddingRight: .40625
+    paddingTop: .342105269
+    paddingBottom: .342105269
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
