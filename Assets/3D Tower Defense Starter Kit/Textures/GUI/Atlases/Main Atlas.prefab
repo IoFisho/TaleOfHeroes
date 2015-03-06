@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Main Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 1}
+  m_Name: 
+  material: {fileID: 2100000, guid: 06137245ee26a064aaf8fe64cd55a71d, type: 2}
+  sprites:
+  - name: ParchEmptyRect
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 269
+      width: 497
+      height: 243
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 269
+      width: 497
+      height: 243
+    paddingLeft: .0120724346
+    paddingRight: .018108651
+    paddingTop: .0411522649
+    paddingBottom: .0123456791
+  - name: startButton
+    outer:
+      serializedVersion: 2
+      x: 255
+      y: 141
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 255
+      y: 141
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ProgMapTexture
+    outer:
+      serializedVersion: 2
+      x: 497
+      y: 238
+      width: 509
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 497
+      y: 238
+      width: 509
+      height: 61
+    paddingLeft: .00589390984
+    paddingRight: 0
+    paddingTop: .0327868834
+    paddingBottom: .0163934417
+  - name: Start
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 128
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 128
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Parchment
+    outer:
+      serializedVersion: 2
+      x: 497
+      y: 299
+      width: 508
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 497
+      y: 299
+      width: 508
+      height: 213
+    paddingLeft: .00590551179
+    paddingRight: .00196850393
+    paddingTop: .154929578
+    paddingBottom: .0469483584
+  - name: WaxSeal
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 7
+      width: 61
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 7
+      width: 61
+      height: 60
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: EnemyIcon
+    outer:
+      serializedVersion: 2
+      x: 189
+      y: 12
+      width: 10
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 189
+      y: 12
+      width: 10
+      height: 16
+    paddingLeft: .300000012
+    paddingRight: .300000012
+    paddingTop: 0
+    paddingBottom: 0
+  - name: EnemyDeadIcon
+    outer:
+      serializedVersion: 2
+      x: 215
+      y: 51
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 215
+      y: 51
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: typographer_rotunda_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 67
+      width: 255
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 67
+      width: 255
+      height: 202
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: .267326742
+  - name: JoyStickOuter
+    outer:
+      serializedVersion: 2
+      x: 255
+      y: 13
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 255
+      y: 13
+      width: 128
+      height: 128
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: JoyStickInner
+    outer:
+      serializedVersion: 2
+      x: 497
+      y: 27
+      width: 115
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 497
+      y: 27
+      width: 115
+      height: 117
+    paddingLeft: .0521739125
+    paddingRight: .0608695634
+    paddingTop: .0427350439
+    paddingBottom: .051282052
+  - name: ReloadBackground
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 206
+      width: 256
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 752
+      y: 206
+      width: 244
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SliderTexture
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 51
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 232
+      y: 52
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ParchRectLoad
+    outer:
+      serializedVersion: 2
+      x: 497
+      y: 144
+      width: 249
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 497
+      y: 144
+      width: 249
+      height: 94
+    paddingLeft: .0120481923
+    paddingRight: .0160642564
+    paddingTop: .0531914905
+    paddingBottom: .0744680837
+  - name: EnemyIconAir
+    outer:
+      serializedVersion: 2
+      x: 189
+      y: 28
+      width: 11
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 189
+      y: 28
+      width: 11
+      height: 15
+    paddingLeft: .272727281
+    paddingRight: .181818187
+    paddingTop: .0666666701
+    paddingBottom: 0
+  - name: sound
+    outer:
+      serializedVersion: 2
+      x: 189
+      y: 43
+      width: 26
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 189
+      y: 43
+      width: 26
+      height: 24
+    paddingLeft: .0769230798
+    paddingRight: .15384616
+    paddingTop: .208333328
+    paddingBottom: .125
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
